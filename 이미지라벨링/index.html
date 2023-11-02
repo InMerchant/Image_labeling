@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>과일 분류</title>
+</head>
+<body>
+    <p>학습된 과일 종류(사과, 바나나, 체리, 사포딜라, 포도, 키위, 망고, 오렌지, 딸기)</p>
+    <input type="file" id="imageInput" accept="image/*">
+    <button onclick="classifyFruit()">과일 분류</button>
+    <div id="output"></div>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
